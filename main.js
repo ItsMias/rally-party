@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }, 5000000);
 
   // Show version number
-  //var ver = document.getElementById('ver');
-  //ver.innerHTML = flipdown.version;
-//});
+  var ver = document.getElementById('ver');
+  ver.innerHTML = flipdown.version;
+});
