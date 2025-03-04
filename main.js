@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let body = document.body;
     body.classList.toggle('light-theme');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
-    body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
+   // body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
   }, 5000);
 
   // Show version number
