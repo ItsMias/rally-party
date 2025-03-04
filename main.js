@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
     body.classList.toggle('light-theme');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
-  }, 500000000000);
+  }, 5000000);
 
   // Show version number
-  var ver = document.getElementById('ver');
-  ver.innerHTML = flipdown.version;
-});
+  //var ver = document.getElementById('ver');
+  //ver.innerHTML = flipdown.version;
+//});
