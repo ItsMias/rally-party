@@ -194,7 +194,8 @@ var FlipDown = function () {
     key: "_tick",
     value: function _tick() {
       this.now = this._getTime();
-      var diff = this.epoch - this.now <= 0 ? 0 : this.epoch - this.now;
+      var diff = this.now - this.epoch;
+      if (diff < 0) diff = 0;
       this.clockValues.d = Math.floor(diff / 86400);
       diff -= this.clockValues.d * 86400;
       this.clockValues.h = Math.floor(diff / 3600);
